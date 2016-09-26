@@ -12,8 +12,8 @@ WORKDIR /src
 COPY requirements.txt /src
 
 
-RUN apk add --no-cache libffi && \
-      apk add --no-cache --virtual .fetch-deps  \
+RUN apk add --no-cache libffi \
+     && apk add --no-cache --virtual .fetch-deps  \
         gcc \
         libc-dev \
         libffi-dev \
