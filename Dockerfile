@@ -16,6 +16,7 @@ RUN apk add --no-cache --virtual .fetch-deps  \
         gcc \
         libc-dev \
         libffi-dev \
+        linux-headers \
         make \
         openssl-dev \
         && pip install --no-cache-dir -r requirements.txt \
