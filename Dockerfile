@@ -11,7 +11,6 @@ RUN mkdir -p /src/
 WORKDIR /src
 COPY requirements.txt /src
 
-
 RUN apk add --no-cache --virtual .fetch-deps  \
         gcc \
         libc-dev \
@@ -21,6 +20,11 @@ RUN apk add --no-cache --virtual .fetch-deps  \
         openssl-dev \
         && pip install --no-cache-dir -r requirements.txt \
         && apk del .fetch-deps
+
+#
+# ssh-pass is nice to have for manual testing
+# Adding git for use with galaxy
+RUN apk add --no-cache sshpass git
 
 
 COPY root /root
