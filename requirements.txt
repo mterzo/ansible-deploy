@@ -1,3 +1,4 @@
 ansible==2.3.1.0
 ansible-lint==3.4.13
+pyghmi==1.0.18
 shade==1.20.0
