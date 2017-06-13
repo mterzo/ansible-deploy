@@ -26,5 +26,8 @@ RUN apk add --no-cache --virtual .fetch-deps  \
 # Adding git for use with galaxy
 RUN apk add --no-cache sshpass git
 
+# Make life easy for running ansible when delegated to
+# localhost
+RUN ln -s /usr/local/bin/python /usr/bin/python
 
 COPY root /root
