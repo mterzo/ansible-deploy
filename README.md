@@ -52,7 +52,7 @@ deploy:
 
 ## License
 
-The code in this repository, unless otherwise noted, is GNU licensed. See the `LICENSE` file in this repository.
+The code in this repository, unless otherwise noted, is GNU licensed. See the [LICENSE](LICENSE) file in this repository.
 
 [ansible]: http://www.ansible.com/
 [issues]: https://github.com/mterzo/ansible-deploy/issues
