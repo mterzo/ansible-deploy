@@ -15,6 +15,7 @@ RUN set -ex \
             libffi \
             openssh \
             openssl \
+            rsync   \
             sshpass \
         && apk add --no-cache --virtual .build-deps  \
             gcc \
