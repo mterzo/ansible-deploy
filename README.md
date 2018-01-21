@@ -4,10 +4,10 @@
 [![Docker Stars](https://img.shields.io/docker/stars/terzom/ansible-deploy.svg?style=flat-square)]()
 [![Docker Build Status](https://img.shields.io/docker/build/terzom/ansible-deploy.svg?style=flat-square)]()
 
-A smallish container based on alpine providing ansible support to drive infrascture from inside a container.
+A smallish container based on alpine providing ansible support to drive infrastructure from inside a container.
 
 ## Why?
-Deploying from CI/CD through gitlab you need lightweight tools to push code around or drive varous processes, Using this
+Deploying from CI/CD through gitlab you need lightweight tools to push code around or drive various processes, Using this
 container allows for easy orchestration of complex systems driven through code.
 
 ## Usage
@@ -47,7 +47,7 @@ deploy:
   - cd deploy
   # ansbile.cfg and invntory are in the deploy directory
   # of project.
-  - ansible-playbook -l production deploy.yml 
+  - ansible-playbook -l production deploy.yml
 ```
 
 ## License
