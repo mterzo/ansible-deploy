@@ -1,4 +1,4 @@
-ansible==2.4.0.0
+ansible==2.4.3.0
 ansible-lint==3.4.15
 pyghmi==1.0.22
 shade==1.23.0
