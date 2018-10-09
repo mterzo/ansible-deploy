@@ -1,5 +1,5 @@
-ansible==2.5.3
-ansible-lint==3.4.21
+ansible==2.6.2
+ansible-lint==3.4.23
 pyghmi==1.0.44
 shade==1.27.1
 python-hpilo==4.2.1
