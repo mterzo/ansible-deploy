@@ -3,5 +3,4 @@ ansible-lint==4.1.0
 pyghmi==1.2.16
 shade==1.30.0
 python-hpilo==4.3
-pyrax==1.9.8
 python-novaclient==12.0.0
