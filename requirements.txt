@@ -2,6 +2,7 @@ ansible==3.8.3
 ansible-lint==4.1.0
 pyghmi==1.4.1
 shade==1.31.0
+pyOpenSSL==19.0.0
 python-hpilo==4.3
 python-novaclient==14.2.0
 pyvmomi==6.7.1.2018.12
