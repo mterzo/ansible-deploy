@@ -4,6 +4,6 @@ docker
 docker-compose
 jsondiff
 pyghmi
-shade
 python-hpilo
-pyrax
+python-novaclient
+shade
